@@ -56,6 +56,6 @@ res.writeHead(200, {'Content-Type': 'text/plain'});
 res.end('Just for testing purposes\n');
 });
 
-server.listen(process.env.PORT, () => {
-console.log('Hello world listening on port', process.env.PORT);
+server.listen(8080, () => {
+console.log('Hello world listening on port', 8080);
 });
